@@ -10,5 +10,6 @@ exit
 fi
 echo Linking...
 gcc -o a.out *.o && ./a.out
+echo
 echo ...done
 rm -rf *.o
